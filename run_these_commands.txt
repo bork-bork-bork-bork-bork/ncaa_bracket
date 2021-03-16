@@ -1,0 +1,32 @@
+# run all of these
+# results are in each list file in each directory
+cp 4.lst 2.lst 1.lst working/
+cp 32.lst 16.lst 8.lst east/
+cp 32.lst 16.lst 8.lst midwest/
+cp 32.lst 16.lst 8.lst south/
+cp 32.lst 16.lst 8.lst west/
+
+./decider.sh west F4 west/f4.lst
+./decider.sh west 64 west/64.lst
+./decider.sh west 32 west/32.lst
+./decider.sh west 16 west/16.lst
+./decider.sh west 8 west/8.lst
+
+./decider.sh east F4 east/f4.lst
+./decider.sh east 64 east/64.lst
+./decider.sh east 32 east/32.lst
+./decider.sh east 16 east/16.lst
+./decider.sh east 8 east/8.lst
+
+./decider.sh south 64 south/64.lst
+./decider.sh south 32 south/32.lst
+./decider.sh south 16 south/16.lst
+./decider.sh south 8 south/8.lst
+
+./decider.sh midwest 64 midwest/64.lst
+./decider.sh midwest 32 midwest/32.lst
+./decider.sh midwest 16 midwest/16.lst
+./decider.sh midwest 8 midwest/8.lst
+
+./decider.sh working 4 working/4.lst
+./decider.sh working 2 working/2.lst
